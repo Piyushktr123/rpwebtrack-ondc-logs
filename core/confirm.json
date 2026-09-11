@@ -1,1 +1,4 @@
-{"context":{"domain":"ONDC:SRV10","action":"confirm","bpp_id":"rpwebtrack.com"},"message":{"order":{"id":"ORDER-01","state":"Created"}}}
+{
+  "context": { "domain": "ONDC:SRV10", "action": "confirm", "country": "IND", "city": "std:080", "core_version": "1.2.0", "bap_id": "test-bap.ondc.org", "bap_uri": "https://test-bap.ondc.org", "bpp_id": "rpwebtrack.com", "bpp_uri": "https://rpwebtrack.com/ondc", "transaction_id": "txn-core-001", "message_id": "msg-07", "timestamp": "2025-11-20T10:06:00Z" },
+  "message": { "order": { "provider": {"id": "P1"}, "items": [{"id": "SRV10-1"}], "billing": {"name": "Piyush"}, "fulfillment": {"type": "ONLINE"}, "payment": {"type": "ON-FULFILLMENT"}}}
+}
