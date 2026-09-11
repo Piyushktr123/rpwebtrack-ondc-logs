@@ -1,24 +1,4 @@
 {
-  "context": {
-    "domain": "ONDC:SRV10",
-    "action": "on_search",
-    "bpp_id": "rpwebtrack.com",
-    "bpp_uri": "https://rpwebtrack.com/ondc",
-    "transaction_id": "test-txn-01"
-  },
-  "message": {
-    "catalog": {
-      "bpp/descriptor": { "name": "RP Webtrack" },
-      "bpp/providers": [
-        {
-          "id": "RPW1",
-          "descriptor": { "name": "RP Webtrack IT Services" },
-          "items": [
-            { "id": "WEB-001", "descriptor": { "name": "Website Development" }, "price": { "currency": "INR", "value": "15000" } },
-            { "id": "SEO-001", "descriptor": { "name": "SEO Service" }, "price": { "currency": "INR", "value": "10000" } }
-          ]
-        }
-      ]
-    }
-  }
+  "context": { "domain": "ONDC:SRV10", "action": "on_search", "country": "IND", "city": "std:080", "core_version": "1.2.0", "bap_id": "test-bap.ondc.org", "bap_uri": "https://test-bap.ondc.org", "bpp_id": "rpwebtrack.com", "bpp_uri": "https://rpwebtrack.com/ondc", "transaction_id": "txn-core-001", "message_id": "msg-02", "timestamp": "2025-11-20T10:01:00Z" },
+  "message": { "catalog": { "bpp/descriptor": {"name": "RP Webtrack"}, "bpp/providers": [{"id": "P1", "descriptor": {"name": "RP Services"}, "items": [{"id": "SRV10-1", "descriptor": {"name": "Web Development"}}]}]}}
 }
