@@ -1,0 +1,17 @@
+{
+  "context": {"domain":"ONDC:SRV10","action":"on_search","bpp_id":"rpwebtrack.com","transaction_id":"txn-001"},
+  "message": {
+    "catalog": {
+      "bpp/providers": [{
+        "id": "RPW1",
+        "descriptor": {"name": "RP Webtrack - IT Services"},
+        "items": [
+          {"id":"WEB-DEV-001","descriptor":{"name":"Website Development"},"price":{"currency":"INR","value":"15000"}},
+          {"id":"SEO-001","descriptor":{"name":"SEO Service"},"price":{"currency":"INR","value":"10000"}},
+          {"id":"APP-001","descriptor":{"name":"App Development"},"price":{"currency":"INR","value":"50000"}},
+          {"id":"CRM-ERP","descriptor":{"name":"CRM/ERP/SAP Development"},"price":{"currency":"INR","value":"75000"}}
+        ]
+      }]
+    }
+  }
+}
