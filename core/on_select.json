@@ -1,0 +1,1 @@
+{"context":{"domain":"ONDC:SRV10","action":"on_select","bpp_id":"rpwebtrack.com"},"message":{"order":{"provider":{"id":"RPW1"},"items":[{"id":"WEB-001","price":{"value":"15000"}}],"quote":{"price":{"value":"15000"}}}}}
