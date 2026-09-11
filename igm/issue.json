@@ -1,0 +1,25 @@
+{
+  "context": {
+    "domain": "ONDC:SRV10",
+    "action": "issue",
+    "country": "IND",
+    "city": "std:080",
+    "core_version": "1.2.0",
+    "bap_id": "test-bap.ondc.org",
+    "bap_uri": "https://test-bap.ondc.org",
+    "bpp_id": "rpwebtrack.com",
+    "bpp_uri": "https://rpwebtrack.com/ondc",
+    "transaction_id": "txn-igm-01",
+    "message_id": "msg-igm-01",
+    "timestamp": "2025-11-20T10:00:00Z"
+  },
+  "message": {
+    "issue": {
+      "id": "ISSUE-01",
+      "status": "OPEN",
+      "category": "ORDER",
+      "sub_category": "DELAY",
+      "description": "Service delivery delayed"
+    }
+  }
+}
