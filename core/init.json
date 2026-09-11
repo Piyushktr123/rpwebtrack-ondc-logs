@@ -1,1 +1,4 @@
-{"context":{"domain":"ONDC:SRV10","action":"init","bpp_id":"rpwebtrack.com"},"message":{"order":{"billing":{"name":"Test User","email":"test@rpwebtrack.com"}}}}
+{
+  "context": { "domain": "ONDC:SRV10", "action": "init", "country": "IND", "city": "std:080", "core_version": "1.2.0", "bap_id": "test-bap.ondc.org", "bap_uri": "https://test-bap.ondc.org", "bpp_id": "rpwebtrack.com", "bpp_uri": "https://rpwebtrack.com/ondc", "transaction_id": "txn-core-001", "message_id": "msg-05", "timestamp": "2025-11-20T10:04:00Z" },
+  "message": { "order": { "provider": {"id": "P1"}, "items": [{"id": "SRV10-1"}], "billing": {"name": "Piyush", "email": "test@test.com"}, "fulfillment": {"customer": {"person": {"name": "Piyush"}, "contact": {"phone": "9999999999", "email": "test@test.com"}}}}}
+}
