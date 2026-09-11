@@ -1,0 +1,1 @@
+{"context":{"domain":"ONDC:SRV10","action":"on_init","bpp_id":"rpwebtrack.com"},"message":{"order":{"provider":{"id":"RPW1"},"payments":[{"id":"P1","collected_by":"BPP"}]}}}
