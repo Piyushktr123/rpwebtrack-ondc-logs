@@ -1,1 +1,4 @@
-{"context":{"domain":"ONDC:SRV10","action":"on_init","bpp_id":"rpwebtrack.com"},"message":{"order":{"provider":{"id":"RPW1"},"payments":[{"id":"P1","collected_by":"BPP"}]}}}
+{
+  "context": { "domain": "ONDC:SRV10", "action": "on_init", "country": "IND", "city": "std:080", "core_version": "1.2.0", "bap_id": "test-bap.ondc.org", "bap_uri": "https://test-bap.ondc.org", "bpp_id": "rpwebtrack.com", "bpp_uri": "https://rpwebtrack.com/ondc", "transaction_id": "txn-core-001", "message_id": "msg-06", "timestamp": "2025-11-20T10:05:00Z" },
+  "message": { "order": { "provider": {"id": "P1"}, "items": [{"id": "SRV10-1"}], "quote": {"price": {"currency": "INR", "value": "5000"}}, "payment": {"type": "ON-FULFILLMENT"}}}
+}
