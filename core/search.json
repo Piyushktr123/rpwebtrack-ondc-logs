@@ -1,0 +1,19 @@
+{
+  "context": {
+    "domain": "ONDC:SRV10",
+    "action": "search",
+    "country": "IND",
+    "city": "std:011",
+    "core_version": "1.2.0",
+    "bap_id": "buyer-app.ondc.org",
+    "bpp_id": "rpwebtrack.com",
+    "bpp_uri": "https://rpwebtrack.com/ondc",
+    "transaction_id": "txn-001"
+  },
+  "message": {
+    "intent": {
+      "category": {"id": "Website Development"},
+      "fulfillment": {"type": "Online"}
+    }
+  }
+}
