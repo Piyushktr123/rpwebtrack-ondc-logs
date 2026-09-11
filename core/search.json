@@ -1,19 +1,4 @@
 {
-  "context": {
-    "domain": "ONDC:SRV10",
-    "action": "search",
-    "country": "IND",
-    "city": "std:011",
-    "core_version": "1.2.0",
-    "bap_id": "buyer-app.ondc.org",
-    "bpp_id": "rpwebtrack.com",
-    "bpp_uri": "https://rpwebtrack.com/ondc",
-    "transaction_id": "txn-001"
-  },
-  "message": {
-    "intent": {
-      "category": {"id": "Website Development"},
-      "fulfillment": {"type": "Online"}
-    }
-  }
+  "context": { "domain": "ONDC:SRV10", "action": "search", "country": "IND", "city": "std:080", "core_version": "1.2.0", "bap_id": "test-bap.ondc.org", "bap_uri": "https://test-bap.ondc.org", "bpp_id": "rpwebtrack.com", "bpp_uri": "https://rpwebtrack.com/ondc", "transaction_id": "txn-core-001", "message_id": "msg-01", "timestamp": "2025-11-20T10:00:00Z" },
+  "message": { "intent": { "fulfillment": { "type": "ONLINE", "stops": [{"location": {"gps": "12.97,77.59", "area_code": "560001"}}]}, "payment": {"type": "ON-FULFILLMENT"}, "category": {"id": "SRV10-1"}}}
 }
